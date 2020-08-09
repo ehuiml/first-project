@@ -1,0 +1,311 @@
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+    background: url(../images/registerbg.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+span {
+
+    margin: 7px 0;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+h3 {
+    display: block;
+    margin-top: 20px;
+    justify-content: center;
+    height: 42px;
+    font-size: 28px;
+    color: black;
+    display: flex;
+}
+
+h3 i {
+    font-weight: 400;
+}
+
+.reglogo {
+    display: block;
+    width: 166px;
+    height: 43px;
+    margin: 40px auto;
+}
+
+.reglogo img {
+    width: 166px;
+    height: 43px;
+}
+
+.big {
+    width: 400px;
+    height: 562px;
+    /* border: 1px solid red; */
+    margin: 50px auto;
+    background-color: white;
+    /* border-top: 1px solid rgb(199, 199, 199); */
+}
+
+.content {
+    /* height: 100%; */
+    height: 513px;
+    border: 1px solid red;
+    /* border-top: 1px solid rgb(199, 199, 199); */
+    border-top: none;
+}
+
+.head {
+    width: 100%;
+    height: 49px;
+    display: flex;
+}
+
+.current {
+    border: 1px solid red;
+    border-bottom: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 49px;
+    flex: 1;
+}
+
+.mobile,
+.email,
+.custom {
+    flex: 1;
+    border-bottom: 1px solid red;
+    border-right: 1px solid rgb(199, 199, 199);
+    font-size: 16px;
+    text-align: center;
+    line-height: 49px;
+
+}
+
+
+
+.tel a {
+    display: block;
+    float: right;
+    height: 40px;
+    width: 140px;
+    /* background-color: rgb(199, 199, 199); */
+    /* background-color: rgb(229, 0, 79); */
+    pointer-events: none;
+    background-color: gray;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.custom {
+    border-right: none;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    margin-top: 25px;
+}
+
+.body ul li {
+    width: 344px;
+    height: 42px;
+    border: 1px solid rgb(199, 199, 199);
+    /* margin: 25px 0; */
+    font-size: 16px;
+
+    line-height: 40px;
+    /* box-sizing: content-box; */
+    display: flex;
+}
+
+.body ul li input {
+    flex: 1;
+    text-indent: 16px;
+    box-sizing: content-box;
+}
+
+.four {
+    margin-top: 25px;
+}
+
+.password {
+    position: relative;
+}
+
+.password .iconfont {
+    /* float: right; */
+    position: absolute;
+    /* margin-right: 20px; */
+    top: 0;
+    left: 310px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+
+.password i:nth-of-type(2) {
+    display: none;
+}
+
+.why {
+    height: 18px;
+    position: relative;
+    top: 10px;
+}
+
+
+.why span {
+    float: left;
+}
+
+.why a {
+    float: right;
+    color: rgb(229, 0, 79);
+    font-size: 15px;
+}
+
+.require {
+    width: 348px;
+    height: 140px;
+    border: 1px solid rgb(199, 199, 199);
+    font-size: 12px;
+    position: absolute;
+    padding: 5px;
+    top: 26px;
+    left: 0;
+    display: none;
+    background-color: white;
+}
+
+a:hover+.require {
+    display: block;
+}
+
+.end {
+    height: 49px;
+    margin-top: 50px;
+}
+
+.protocol {
+
+    color: rgb(229, 0, 79);
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 120px;
+    float: left;
+
+}
+
+.register {
+    background-color: rgb(229, 0, 79);
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 190px;
+    line-height: 40px;
+    float: right;
+}
+
+.footer {
+    position: absolute;
+    /* top: 969px; */
+    left: 0;
+    width: 100%;
+    height: 172px;
+    background-color: #000000;
+    font-size: 12px;
+    color: #888888;
+}
+
+.footer .ftbox {
+    position: relative;
+    width: 1200px;
+    height: 132px;
+    margin: 0 auto;
+}
+
+.ftbox .ftlogo {
+    position: absolute;
+    top: 32px;
+    left: 28px;
+    width: 64px;
+    height: 66px;
+}
+
+.ftbox .sublogo {
+    position: absolute;
+    top: 50px;
+    left: 106px;
+    width: 120px;
+    height: 24px;
+}
+
+.ftbox .sublogo img {
+    width: 100%;
+}
+
+.ftbox .fttext {
+    position: absolute;
+    top: 0;
+    left: 226px;
+    width: 623px;
+    height: 132px;
+    /* border-left: 1px solid #3a3a3a; */
+    padding: 16px 0 0 23px;
+    /* background-color: pink; */
+}
+
+.ftbox .fttext .dzyyzz {
+    width: 20px;
+    height: 20px;
+}
+
+.ftbox .fttext .dzyyzz img {
+    width: 100%;
+}
+
+.ftbox .fttext p {
+    margin: 4px 0;
+}
+
+.ftbox .fttext p:nth-child(1) {
+    height: 19px;
+    margin-top: 0;
+}
+
+.ftbox .fttext p:nth-child(5) {
+    height: 20px;
+}
+
+.ftbox .fttext p:nth-child(6) {
+    height: 20px;
+    margin-bottom: 0;
+}
+
+.ftbox .priv {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 320px;
+    height: 97px;
+    /* background-color: #fff; */
+}
